@@ -1,0 +1,2915 @@
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:2840
+File Name:PERTABLE
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+\CoordOff
+\GridOff
+\AxesOff
+\Lbl 0:\ViewWindow 0,128,1,64,0,1
+\Prog "-.PTGUI1"
+\F-Line 0,0,0,58
+\F-Line 11,0,11,58
+\F-Line 23,9,23,58
+\F-Line 35,26,35,58
+\F-Line 47,26,47,58
+\F-Line 59,26,59,58
+\F-Line 71,26,71,58
+\F-Line 84,26,84,58
+\F-Line 97,26,97,58
+\F-Line 110,26,110,58
+\F-Line 123,26,123,58
+\F-Line 0,0,11,0
+\F-Line 0,8,23,8
+\F-Line 0,17,23,17
+\Horizontal 25
+\Horizontal 33
+\Horizontal 41
+\Horizontal 50
+\Horizontal 58
+\Text 3,3,"H"
+\Text 11,3,"Li"
+\Text 11,14,"Be"
+\Text 19,3,"Na"
+\Text 19,14,"Mg"
+\Text 27,3,"K"
+\Text 27,14,"Ca"
+\Text 35,3,"B"
+\Text 35,14,"Sr"
+\Text 43,3,"Cs"
+\Text 43,14,"Ba"
+\Text 51,3,"Fr"
+\Text 51,14,"R\Ra"
+\Text 27,26,"Sc"
+\Text 35,26,"Y"
+\Text 43,26,"La"
+\Text 51,26,"Ac"
+\Text 27,37,"Ti"
+\Text 35,37,"Zr"
+\Text 43,37,"Hf"
+\Text 51,37,"Rf"
+\Text 27,49,"V"
+\Text 35,49,"Nb"
+\Text 43,49,"Ta"
+\Text 51,49,"Db"
+\Text 27,61,"Cr"
+\Text 35,61,"Mo"
+\Text 43,61,"W"
+\Text 51,61,"Sg"
+\Text 27,73,"Mn"
+\Text 35,73,"Tc"
+\Text 43,73,"R\Re"
+\Text 51,73,"Bh"
+\Text 27,86,"Fe"
+\Text 35,86,"Ru"
+\Text 43,86,"Os"
+\Text 51,86,"Hs"
+\Text 27,98,"Co"
+\Text 35,98,"Rh"
+\Text 43,98,"Ir"
+\Text 51,98,"Mt"
+\Text 27,111,"Ni"
+\Text 35,111,"Pd"
+\Text 43,111,"Pt"
+\Text 51,111,"Ds"
+\Text 27,124,"C"
+\Text 35,124,"A"
+\Text 43,124,"A"
+\Text 51,124,"R"
+\Lbl E:\Prog "-.GETKEY"
+A=79\=>\GotoA
+A=29\=>\GotoF
+A=47\=>\GotoZ
+\GotoE
+\Lbl F:64\->X
+32\->Y
+\Plot X,Y\DispX\->K
+Y\->L
+\Int K\->K
+\Int L\->L
+\Prog "-.PTGUI2"
+\Goto0
+\Lbl A:\Prog "-.GETKEY"
+A=27\=>\Goto3
+A=37\=>\Goto1
+\GotoA
+\Lbl 1:\Cls
+\Prog "-.PTGUI1"
+\Horizontal 64
+\Horizontal 56
+\Horizontal 48
+\F-Line 0,64,0,48
+\F-Line 10,64,10,48
+\F-Line 20,64,20,48
+\F-Line 30,64,30,48
+\F-Line 42,64,42,48
+\F-Line 54,64,54,48
+\F-Line 66,64,66,48
+\F-Line 78,64,78,48
+\F-Line 90,64,90,48
+\F-Line 102,64,102,48
+\F-Line 114,64,114,48
+\F-Line 126,64,126,48
+\Text 49,3,"La"
+\Text 57,3,"Ac"
+\Text 49,13,"Ce"
+\Text 49,23,"Pr"
+\Text 49,33,"Nd"
+\Text 49,44,"Pm"
+\Text 49,56,"Sm"
+\Text 49,68,"Eu"
+\Text 49,80,"Gd"
+\Text 49,92,"Tb"
+\Text 49,104,"Dy"
+\Text 49,116,"Ho"
+\Text 57,13,"Th"
+\Text 57,23,"Pa"
+\Text 57,33,"U"
+\Text 57,44,"Np"
+\Text 57,56,"Pu"
+\Text 57,68,"Am"
+\Text 57,80,"Cm"
+\Text 57,92,"Bk"
+\Text 57,104,"Cf"
+\Text 57,116,"Es"
+\Lbl K:\Prog "-.GETKEY"
+A=79\=>\GotoB
+A=29\=>\GotoG
+A=47\=>\GotoZ
+\GotoK
+\Lbl G:64\->X
+32\->Y
+\Plot X,Y\Disp\Int X\->K
+\Int Y\->L
+\Prog "-.PTGUI3"
+\Goto1
+\Lbl B:\Prog "-.GETKEY"
+A=28\=>\Goto0
+A=27\=>\Goto2
+\GotoB
+\Lbl 2:\Cls
+\Prog "-.PTGUI1"
+\For 0\->A \To 48 \Step 12
+\F-Line A,48,A,64
+\Next 
+\F-Line 0,48,48,48
+\F-Line 0,56,48,56
+\F-Line 0,64,48,64
+\Text 49,3,"Er"
+\Text 49,15,"Tm"
+\Text 49,27,"Yb"
+\Text 49,38,"Lu"
+\Text 57,3,"Fm"
+\Text 57,15,"Md"
+\Text 57,27,"No"
+\Text 57,38,"Lr"
+\Text 49,50,"Lanthanide Series"
+\Text 57,50,"Actinide Series"
+\Lbl G:\Prog "-.GETKEY"
+A=79\=>\GotoC
+A=29\=>\GotoH
+A=47\=>\GotoZ
+\GotoG
+\Lbl H:\Plot X,Y\Disp\Int X\->K
+\Int Y\->L
+\Prog "-.PTGUI4"
+\Goto2
+\Lbl C:\Prog "-.GETKEY"
+A=28\=>\Goto3
+A=38\=>\Goto1
+\GotoC
+\Lbl 3:\Cls
+\Prog "-.PTGUI1"
+\F-Line 0,64,22,64
+\F-Line 0,56,94,56
+\F-Line 0,47,94,47
+\F-Line 0,39,94,39
+\F-Line 0,39,94,39
+\F-Line 0,31,0,64
+\F-Line 0,31,94,31
+\F-Line 22,23,94,23
+\F-Line 22,14,94,14
+\F-Line 11,31,11,64
+\F-Line 22,15,22,64
+\F-Line 34,15,34,56
+\F-Line 46,15,46,56
+\F-Line 58,15,58,56
+\F-Line 70,15,70,56
+\F-Line 82,6,82,56
+\F-Line 94,6,94,56
+\F-Line 94,6,82,6
+\Text 57,3,"Rg"
+\Text 49,3,"Au"
+\Text 41,3,"Ag"
+\Text 33,3,"Cu"
+\Text 33,14,"Zn"
+\Text 33,25,"Ga"
+\Text 33,37,"Ge"
+\Text 33,49,"As"
+\Text 33,61,"Se"
+\Text 33,73,"Br"
+\Text 33,84,"Kr"
+\Text 41,14,"Cd"
+\Text 41,25,"In"
+\Text 41,37,"Sn"
+\Text 41,49,"Sb"
+\Text 41,61,"Te"
+\Text 41,73,"I"
+\Text 41,84,"Xe"
+\Text 49,14,"Hg"
+\Text 57,14,"Cn"
+\Text 49,25,"Tl"
+\Text 49,37,"Pb"
+\Text 49,49,"Bi"
+\Text 49,61,"Po"
+\Text 49,73,"At"
+\Text 49,84,"Rn"
+\Text 25,25,"Al"
+\Text 25,36,"Si"
+\Text 25,52,"P"
+\Text 25,63,"S"
+\Text 25,72,"Cl"
+\Text 25,84,"Ar"
+\Text 17,25,"B"
+\Text 17,36,"C"
+\Text 17,52,"N"
+\Text 17,63,"O"
+\Text 17,74,"\@7FD0"
+\Text 17,84,"Ne"
+\Text 9,84,"He"
+\Lbl I:\Prog "-.GETKEY"
+A=79\=>\GotoD
+A=29\=>\GotoJ
+A=47\=>\GotoZ
+\GotoI
+\Lbl J:\Plot X,Y\Disp\Int X\->K
+\Int Y\->L
+\Prog "-.PTGUI5"
+\Goto3
+\Lbl D:\Prog "-.GETKEY"
+A=38\=>\Goto0
+A=37\=>\Goto2
+\GotoD
+\Lbl Z:\ClrGraph
+\ClrText
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:25
+File Name:-.FWINGN
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+\Horizontal 0
+\Horizontal 64
+\Horizontal 8
+\Vertical 0
+\Vertical 128
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:34
+File Name:-.GETKEY
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+\For 0\->A \To 35
+\Next 
+0\->A
+\Lbl 0:\Getkey\->A
+A=0\=>\Goto0
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:893
+File Name:-.PTSRCA
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=56\=>\GotoA
+V=75\=>\GotoB
+V=25\=>\GotoC
+V=74\=>\GotoD
+V=33\=>\GotoE
+V=53\=>\GotoF
+V=43\=>\GotoG
+V=72\=>\GotoH
+\Return
+\Lbl H:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Gold-Au"
+79\->G
+196.97\->H
+6\->I
+9\->J
+1\->K
+79\->L
+0\->M
+118\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Actinium-Ac"
+89\->G
+227\->H
+7\->I
+11\->J
+1\->K
+89\->L
+1\->M
+\Prog "-.PTEDSP"
+0\->M
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Silver-Ag"
+47\->G
+107.87\->H
+5\->I
+9\->J
+1\->K
+0\->M
+61\->N
+0\->O
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl C:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Aluminium-Al (Al+)"
+13\->G
+26.982\->H
+3\->I
+3\->J
+1\->K
+13\->L
+14\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl D:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Americium-Am"
+95\->G
+1\->M
+243\->H
+7\->I
+11\->J
+1\->K
+1\->O
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl E:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Astatine-At"
+85\->G
+1\->M
+210\->H
+6\->I
+7\->J
+1\->K
+\Prog "-.PTEDSP"
+0\->M
+\Prog "-.PTEXIT"
+\Return
+\Lbl F:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Argon-Ar"
+18\->G
+39.948\->H
+3\->I
+8\->J
+1\->K
+18\->L
+0\->M
+22\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl G:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Arsenic-As"
+33\->G
+74.922\->H
+4\->I
+5\->J
+0\->M
+42\->N
+\Text 3,48,"[Toxic semimetal]"
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:805
+File Name:-.PTSRCB
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=31\=>\GotoA
+V=76\=>\GotoB
+V=36\=>\GotoC
+V=55\=>\GotoD
+V=53\=>\GotoE
+V=65\=>\GotoF
+V=35\=>\GotoG
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"B\oron-B [Semimetal]"
+5\->G
+10.811\->H
+2\->I
+3\->J
+1\->K
+5\->L
+6\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"\@F73Cium-Ba [Toxic, Ba\x^2+]"
+56\->G
+137.33\->H
+6\->I
+2\->J
+1\->K
+56\->L
+131\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl C:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Beryllium-Be [Toxic]"
+4\->G
+9.0122\->H
+2\->I~J
+1\->K
+4\->L
+5\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl D:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Bismuth-Bi"
+83\->G
+208.98\->H
+6\->I
+5\->J
+1\->K
+83\->L
+126\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl E:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Bromine-Br [Toxic nonmetal]"
+35\->G
+79.904\->H
+4\->I
+7\->J
+2\->K
+35\->L
+45\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl F:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Bohrium-Bh"
+107\->G
+1\->M
+1\->O
+264\->H
+7\->I
+9\->J
+1\->K
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+\Return
+\Lbl G:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Berkelium-Bk"
+97\->G
+1\->M
+1\->O
+247\->H
+7\->I
+11\->J
+1\->K
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:1354
+File Name:-.PTSRCC
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=31\=>\GotoA
+V=76\=>\GotoB
+V=46\=>\GotoC
+V=36\=>\GotoD
+V=74\=>\GotoE
+V=54\=>\GotoF
+V=53\=>\GotoG
+V=43\=>\GotoH
+V=72\=>\GotoI
+V=25\=>\GotoJ
+V=64\=>\GotoK
+V=26\=>\GotoL
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Carbon-C [Nonmetal, CO\x^2-]"
+6\->G
+12.011\->H
+2\->I
+4\->J
+1\->K
+6\->L
+0\->M~O
+6\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Calcium-Ca [Ca\x^2+]"
+20\->G
+40.078\->H
+4\->I
+2\->J
+1\->K
+20\->L
+20\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl C:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Cadmium-Cd [Toxic]"
+48\->G
+112.41\->H
+5\->I
+9\->J
+1\->K
+48\->L
+64\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl D:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Cerium-Ce"
+58\->G
+140.12\->H
+6\->I
+10\->J
+1\->K
+58\->L
+82\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl E:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Curium-Cm"
+96\->G
+1\->M
+247\->H
+7\->I
+11\->J
+1\->K
+1\->O
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+\Return
+\Lbl F:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Cobalt-Co"
+27\->G
+58.933\->H
+4\->I
+9\->J
+1\->K
+27\->L
+32\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl G:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Chromium-Cr"
+24\->G
+51.996\->H
+4\->I
+9\->J
+1\->K
+24\->L
+28\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl H:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Caesium-Cs"
+55\->G
+132.91\->H
+6\->I
+1\->J
+2\->K
+55\->L
+78\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl I:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Copper-Cu [CU\x^2+]"
+29\->G
+63.546\->H
+4\->I
+9\->J
+1\->K
+29\->L
+35\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl J:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Chl\orine-Cl [Toxic, Cl-]"
+17\->G
+35.453\->H
+3\->I
+7\->J
+3\->K
+17\->L
+18\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl K:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Copernicium-Cn"
+112\->G
+285\->H
+7\->I
+9\->J
+0\->K
+1\->M~O
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+\Return
+\Lbl L:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Calif\ornium-Cf"
+98\->G
+251\->H
+7\->I
+11\->J
+0\->K
+1\->M
+1\->O
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:339
+File Name:-.PTSRCD
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=66\=>\GotoA
+V=32\=>\GotoB
+V=43\=>\GotoC
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Dubnium-Db"
+105\->G
+1\->M
+1\->O
+262\->H
+7\->I
+5\->J
+1\->K
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Dysprosium-Dy"
+66\->G
+162.5\->H
+6\->I
+10\->J
+1\->K
+66\->L
+97\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl C:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Darmstadtium-Ds"
+110\->G
+281\->H
+7\->I
+9\->J
+0\->K
+1\->M
+1\->O
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:332
+File Name:-.PTSRCE
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=53\=>\GotoA
+V=43\=>\GotoB
+V=72\=>\GotoC
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Erbium-Er"
+68\->G
+167.26\->H
+6\->I
+10\->J
+1\->K
+68\->L
+99\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Einsteinium-Es"
+99\->G
+1\->M
+1\->O
+252\->H
+7\->I
+11\->J
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+\Return
+\Lbl C:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Europium-Eu"
+63\->G
+151.96\->H
+6\->I
+10\->J
+1\->K
+63\->L
+89\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:448
+File Name:-.PTSRCF
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=31\=>\GotoA
+V=36\=>\GotoB
+V=74\=>\GotoC
+V=53\=>\GotoD
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Flu\orine-F [Toxic]"
+9\->G
+18.998\->H
+2\->I
+7\->J
+3\->K
+9\->L
+10\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Iron-Fe [Fe\x^2+, Fe+]"
+26\->G
+55.845\->H
+4\->I
+9\->J
+1\->K
+26\->L
+30\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl C:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Fermium-Fm"
+100\->G
+1\->M
+1\->O
+257\->H
+6\->I
+10\->J
+1\->K
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+\Return
+\Lbl D:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Francium-Fr"
+87\->G
+1\->M
+223\->H
+7\->I
+1\->J
+2\->K
+\Prog "-.PTEDSP"
+0\->M
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:343
+File Name:-.PTSRCG
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=76\=>\GotoA
+V=46\=>\GotoB
+V=36\=>\GotoC
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Gallium-Ga"
+31\->G
+69.723\->H
+4\->I
+3\->J
+2\->K
+31\->L
+39\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Gadolinium-Gd"
+64\->G
+157.25\->H
+6\->I
+10\->J
+1\->K
+64\->L
+93\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl C:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Germanium-Ge [Semimetal]"
+32\->G
+72.64\->H
+4\->I
+4\->J
+1\->K
+32\->L
+41\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:668
+File Name:-.PTSRCH
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=31\=>\GotoA
+V=36\=>\GotoB
+V=26\=>\GotoC
+V=75\=>\GotoD
+V=43\=>\GotoE
+V=54\=>\GotoF
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Hydrogen-H Flammable,H+,HCO-"
+1\->G
+1.0079\->H
+1\->I
+1\->J
+3\->K
+1\->L
+0\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Helium-He"
+2\->G
+4.0026\->H
+1\->I
+8\->J
+3\->K
+2\->L
+2\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl C:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Hafnium-Hf"
+72\->G
+178.49\->H
+6\->I
+9\->J
+1\->K
+72\->L
+106\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl D:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Mercury-Hg [Toxic]"
+80\->G
+200.59\->H
+6\->I
+9\->J
+2\->K
+80\->L
+121\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl E:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Hassium-Hs"
+108\->G
+1\->M
+265\->H
+7\->I
+9\->J
+1\->O
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+\Return
+\Lbl F:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Holmium-Ho"
+67\->G
+164.93\->H
+6\->I
+9\->J
+1\->K
+67\->L
+98\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:323
+File Name:-.PTSRCI
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=31\=>\GotoA
+V=64\=>\GotoB
+V=53\=>\GotoC
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Iodine-I"
+53\->G
+126.9\->H
+5\->I
+7\->J
+1\->K
+53\->L
+74\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Indium-In"
+49\->G
+114.82\->H
+5\->I
+3\->J
+1\->K
+49\->L
+66\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl C:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Iridium-Ir"
+77\->G
+192.22\->H
+6\->I
+9\->J
+1\->K
+77\->L
+115\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:218
+File Name:-.PTSRCK
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=31\=>\GotoA
+V=53\=>\GotoB
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Potassium-K"
+19\->G
+39.098\->H
+4\->I
+1\->J
+2\->K
+19\->L
+20\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Krypton-Kr"
+36\->G
+83.8\->H
+4\->I
+8\->J
+3\->K
+36\->L
+48\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:448
+File Name:-.PTSRCL
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=76\=>\GotoA
+V=55\=>\GotoB
+V=53\=>\GotoC
+V=72\=>\GotoD
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Lanthanum-La"
+57\->G
+138.91\->H
+6\->I
+10\->J
+1\->K
+57\->L
+82\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Lithium-Li [Li+]"
+3\->G
+6.941\->H
+2\->I
+1\->J
+1\->K
+3\->L
+4\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl C:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Lawrencium-Lr"
+103\->G
+1\->M
+1\->O
+262\->H
+7\->I
+11\->J
+1\->K
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+\Return
+\Lbl D:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Lutetium-Lu"
+71\->G
+174.97\->H
+6\->I
+9\->J
+1\->K
+71\->L
+104\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:565
+File Name:-.PTSRCM
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=75\=>\GotoA
+V=64\=>\GotoB
+V=54\=>\GotoC
+V=33\=>\GotoD
+V=46\=>\GotoE
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Magnesium-Mg [Mg\x^2+]"
+12\->G
+24.305\->H
+3\->I
+2\->J
+1\->K
+12\->L
+12\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Manganese-Mn"
+25\->G
+54.938\->H
+4\->I
+9\->J
+1\->K
+25\->L
+30\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl C:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Molybdenum-Mo"
+42\->G
+95.94\->H
+5\->I
+9\->J
+1\->K
+42\->L
+54\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl D:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Meitnerium-Mt"
+109\->G
+1\->M
+1\->O
+268\->H
+7\->I
+9\->J
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+\Return
+\Lbl E:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Mendelevium-Md"
+101\->G
+1\->M
+1\->O
+258\->H
+7\->I
+11\->J
+0\->K
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:878
+File Name:-.PTSRCN
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=31\=>\GotoA
+V=76\=>\GotoB
+V=66\=>\GotoC
+V=46\=>\GotoD
+V=55\=>\GotoE
+V=36\=>\GotoF
+V=73\=>\GotoG
+V=54\=>\GotoH
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Nitrogen-N [NH+, NO-]"
+7\->G
+14.007\->H
+2\->I
+5\->J
+3\->K
+7\->L
+7\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Sodium-Na [Na+]"
+11\->G
+22.99\->H
+3\->I
+1\->J
+2\->K
+11\->L
+12\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl C:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Niobium-Nb"
+41\->G
+92.206\->H
+5\->I
+9\->J
+1\->K
+41\->L
+52\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl D:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Neodymium-Nd"
+60\->G
+144.24\->H
+6\->I
+9\->J
+1\->K
+60\->L
+84\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl F:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Neon-Ne"
+10\->G
+20.18\->H
+2\->I
+8\->J
+3\->K
+10\->L
+10\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl E:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Nickel-Ni"
+28\->G
+58.693\->H
+4\->I
+9\->J
+1\->K
+28\->L
+31\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl G:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Neptunium-Np"
+93\->G
+1\->M
+1\->O
+237\->H
+7\->I
+11\->J
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+\Return
+\Lbl H:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Nobelium-No"
+102\->G
+1\->M
+1\->O
+259\->H
+7\->I
+11\->J
+0\->K
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:225
+File Name:-.PTSRCO
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=31\=>\GotoA
+V=43\=>\GotoB
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Oxygen-O [0\x^2-, OH-]"
+8\->G
+15.999\->H
+2\->I
+6\->J
+3\->K
+8\->L
+8\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Osmium-Os"
+76\->G
+190.23\->H
+6\->I
+9\->J
+1\->K
+76\->L
+114\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:991
+File Name:-.PTSRCP
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=31\=>\GotoA
+V=76\=>\GotoB
+V=66\=>\GotoC
+V=46\=>\GotoD
+V=74\=>\GotoE
+V=54\=>\GotoF
+V=53\=>\GotoG
+V=33\=>\GotoH
+V=72\=>\GotoI
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Phosph\orus-P"
+15\->G
+30.974\->H
+3\->I
+5\->J
+2\->K
+15\->L
+16\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Protactinium-Pa"
+91\->G
+1\->M
+231.04\->H
+7\->I
+11\->J
+1\->K
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+\Return
+\Lbl C:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Lead-Pb [Toxic, PB\x^2+]"
+82\->G
+207.2\->H
+6\->I
+4\->J
+1\->K
+82\->L
+125\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl D:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Palladium-Pd"
+46\->G
+106.42\->H
+5\->I
+9\->J
+1\->K
+46\->L
+60\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl E:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Promethium-Pm"
+61\->G
+1\->M
+145\->H
+6\->I
+10\->J
+\Prog "-.PTEDSP"
+0\->M
+\Prog "-.PTEXIT"
+\Return
+\Lbl F:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Polonium-Po"
+84\->G
+1\->M
+210\->H
+6\->I
+6\->J
+1\->K
+\Prog "-.PTEDSP"
+0\->M
+\Prog "-.PTEXIT"
+\Return
+\Lbl G:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Praseodymium-Pr"
+59\->G
+140.91\->H
+6\->I
+10\->J
+1\->K
+59\->L
+82\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl H:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Platinum-Pt"
+78\->G
+195.08\->H
+6\->I
+9\->J
+1\->K
+78\->L
+117\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl I:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Plutonium-Pu"
+94\->G
+1\->M
+1\->O
+244\->H
+7\->I
+11\->J
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:863
+File Name:-.PTSRCR
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=76\=>\GotoA
+V=66\=>\GotoB
+V=36\=>\GotoC
+V=26\=>\GotoD
+V=65\=>\GotoE
+V=64\=>\GotoF
+V=72\=>\GotoG
+V=75\=>\GotoH
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"\Radium-\Ra"
+88\->G
+1\->M
+226\->H
+3\->I
+2\->J
+1\->K
+\Prog "-.PTEDSP"
+0\->M
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Rubidium-\Rb"
+37\->G
+85.468\->H
+5\->I
+1\->J
+2\->K
+37\->L
+48\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl C:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Rhenium-\Re"
+75\->G
+186.21\->H
+6\->I
+9\->J
+1\->K
+75\->L
+111\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl D:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Rutherf\ordium-Rf"
+104\->G
+1\->M
+1\->O
+261\->H
+7\->I
+9\->J
+0\->K
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+\Return
+\Lbl E:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Rhodium-Rh"
+45\->G
+102.91\->H
+5\->I
+9\->J
+1\->K
+45\->L
+58\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl F:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"\Radon-Rn"
+86\->G
+1\->M
+222\->H
+6\->I
+8\->J
+3\->K
+\Prog "-.PTEDSP"
+0\->M
+\Prog "-.PTEXIT"
+\Return
+\Lbl G:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Ruthenium-Ru"
+44\->G
+101.07\->H
+5\->I
+9\->J
+1\->K
+44\->L
+57\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl H:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Roentgenium-Rg"
+111\->G
+1\->M
+1\->O
+280\->H
+7\->I
+9\->J
+0\->K
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:990
+File Name:-.PTSRCS
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=31\=>\GotoA
+V=66\=>\GotoB
+V=56\=>\GotoC
+V=36\=>\GotoD
+V=75\=>\GotoE
+V=55\=>\GotoF
+V=74\=>\GotoG
+V=64\=>\GotoH
+V=53\=>\GotoI
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Sulfur-S [S\x^2-, SO\x^2-]"
+16\->G
+32.065\->H
+3\->I
+6\->J
+1\->K
+16\->L
+16\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Antimony-Sb"
+51\->G
+121.76\->H
+5\->I
+5\->J
+1\->K
+51\->L
+71\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl C:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Sc\andium-Sc"
+21\->G
+44.956\->H
+4\->I
+9\->J
+1\->K
+21\->L
+24\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl D:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Selenium-Se"
+34\->G
+78.96\->H
+4\->I
+6\->J
+1\->K
+34\->L
+45\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl E:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Seab\orgium-Sg"
+106\->G
+1\->M
+1\->O
+266\->H
+7\->I
+9\->J
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+\Return
+\Lbl F:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Silicon-Si [Semimetal]"
+14\->G
+28.086\->H
+3\->I
+4\->J
+1\->K
+14\->L
+14\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl G:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Samarium-Sm"
+62\->G
+150.36\->H
+6\->I
+9\->J
+1\->K
+62\->L
+88\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl H:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Tin-Sn"
+50\->G
+118.71\->H
+5\->I
+4\->J
+1\->K
+50\->L
+69\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl I:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Strontium-Sr"
+38\->G
+87.62\->H
+2\->I
+2\->J
+1\->K
+38\->L
+50\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:889
+File Name:-.PTSRCT
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=76\=>\GotoA
+V=66\=>\GotoB
+V=56\=>\GotoC
+V=36\=>\GotoD
+V=65\=>\GotoE
+V=55\=>\GotoF
+V=25\=>\GotoG
+V=74\=>\GotoH
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Tantalum-Ta"
+73\->G
+180.95\->H
+6\->I
+9\->J
+1\->K
+73\->L
+108\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Terbium-Tb"
+65\->G
+158.93\->H
+6\->I
+10\->J
+1\->K
+65\->L
+94\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl C:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Technetium-Tc"
+43\->G
+1\->M
+1\->O
+98\->H
+5\->I
+9\->J
+1\->K
+\Prog "-.PTEDSP"
+0\->M
+0\->O
+\Prog "-.PTEXIT"
+\Return
+\Lbl D:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Tellurium-Te [Semimetal]"
+52\->G
+127.6\->H
+5\->I
+6\->J
+1\->K
+52\->L
+76\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl E:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Th\orium-Th"
+90\->G
+232.04\->H
+7\->I
+11\->J
+1\->K
+1\->M
+\Prog "-.PTEDSP"
+0\->M
+\Prog "-.PTEXIT"
+\Return
+\Lbl F:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Titanium-Ti"
+22\->G
+47.867\->H
+4\->I
+9\->J
+1\->K
+22\->L
+26\->N
+\Prog "-.PTEDSP"
+0\->M
+\Prog "-.PTEXIT"
+\Return
+\Lbl G:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Thallium-Tl"
+81\->G
+204.38\->H
+6\->I
+3\->J
+1\->K
+81\->L
+123\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl H:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Thulium-Tm"
+69\->G
+168.93\->H
+6\->I
+10\->J
+1\->K
+69\->L
+100\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:110
+File Name:-.PTSRCU
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=31\=>\GotoA
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Uranium-U"
+92\->G
+238.03\->H
+7\->I
+11\->J
+1\->K
+1\->M
+\Prog "-.PTEDSP"
+0\->M
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:112
+File Name:-.PTSRCV
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=31\=>\GotoA
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Vanadium-V"
+23\->G
+50.942\->H
+4\->I
+9\->J
+1\->K
+23\->L
+27\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:113
+File Name:-.PTSRCW
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=31\=>\GotoA
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Tungsten-W"
+74\->G
+183.84\->H
+6\->I
+9\->J
+1\->K
+74\->L
+110\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:110
+File Name:-.PTSRCX
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=36\=>\GotoA
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Xenon-Xe"
+54\->G
+131.29\->H
+5\->I
+8\->J
+3\->K
+54\->L
+77\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:222
+File Name:-.PTSRCY
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=31\=>\GotoA
+V=66\=>\GotoB
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Yttrium-Y"
+39\->G
+88.906\->H
+5\->I
+9\->J
+1\->K
+39\->L
+50\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Ytterbium-Yb"
+70\->G
+173.04\->H
+6\->I
+10\->J
+1\->K
+70\->L
+103\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:224
+File Name:-.PTSRCZ
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+V=64\=>\GotoA
+V=53\=>\GotoB
+\Return
+\Lbl A:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Zinc-Zn [Zn\x^2+]"
+30\->G
+65.39\->H
+4\->I
+9\->J
+1\->K
+30\->L
+35\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+\Lbl B:\Cls
+\Prog "-.FWINGN"
+\Text 3,3,"Zirconium-Zr"
+40\->G
+91.224\->H
+5\->I
+9\->J
+1\->K
+40\->L
+51\->N
+\Prog "-.PTEDSP"
+\Prog "-.PTEXIT"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:73
+File Name:-.PTEXIT
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+\Text 57,3,"Press EXIT"
+\Lbl 0:\Prog "-.GETKEY"
+A=47\=>\GotoA
+\Goto0
+\Lbl A:\For 0\->A \To 50
+\Next 
+\Getkey=47\=>\Stop
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:31
+File Name:-.PTGUI1
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+\Text 1,19,"\f1-New page,\f6-Select"
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:1819
+File Name:-.PTGUI2
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+K\>=0\ And K\<=11\ And L\>=0\ And L\<=8\=>\Goto0
+K\>=0\ And K\<=11\ And L\>=9\ And L\<=16\=>\Goto1
+K\>=0\ And K\<=11\ And L\>=17\ And L\<=24\=>\Goto2
+K\>=0\ And K\<=11\ And L\>=25\ And L\<=32\=>\Goto3
+K\>=0\ And K\<=11\ And L\>=33\ And L\<=40\=>\Goto4
+K\>=0\ And K\<=11\ And L\>=41\ And L\<=49\=>\Goto5
+K\>=0\ And K\<=11\ And L\>=50\ And L\<=58\=>\Goto6
+K\>=12\ And K\<=24\ And L\>=9\ And L\<=16\=>\Goto7
+K\>=12\ And K\<=24\ And L\>=17\ And L\<=24\=>\Goto8
+K\>=12\ And K\<=24\ And L\>=25\ And L\<=32\=>\Goto9
+K\>=12\ And K\<=24\ And L\>=33\ And L\<=40\=>\GotoA
+K\>=12\ And K\<=24\ And L\>=41\ And L\<=48\=>\GotoB
+K\>=12\ And K\<=24\ And L\>=49\ And L\<=56\=>\GotoC
+K\>=25\ And K\<=36\ And L\>=24\ And L\<=32\=>\GotoD
+K\>=25\ And K\<=36\ And L\>=33\ And L\<=41\=>\GotoE
+K\>=25\ And K\<=36\ And L\>=42\ And L\<=49\=>\GotoF
+K\>=25\ And K\<=36\ And L\>=50\ And L\<=58\=>\GotoG
+K\>=37\ And K\<=48\ And L\>=24\ And L\<=32\=>\GotoH
+K\>=37\ And K\<=48\ And L\>=33\ And L\<=41\=>\GotoI
+K\>=37\ And K\<=48\ And L\>=42\ And L\<=49\=>\GotoJ
+K\>=37\ And K\<=48\ And L\>=50\ And L\<=58\=>\GotoK
+K\>=49\ And K\<=60\ And L\>=24\ And L\<=32\=>\GotoL
+K\>=49\ And K\<=60\ And L\>=33\ And L\<=41\=>\GotoM
+K\>=49\ And K\<=60\ And L\>=42\ And L\<=49\=>\GotoN
+K\>=49\ And K\<=60\ And L\>=50\ And K\<=58\=>\GotoO
+K\>=61\ And K\<=72\ And L\>=24\ And L\<=32\=>\GotoP
+K\>=61\ And K\<=72\ And L\>=33\ And L\<=41\=>\GotoQ
+K\>=61\ And K\<=72\ And L\>=42\ And L\<=49\=>\GotoR
+K\>=61\ And K\<=72\ And L\>=50\ And L\<=58\=>\GotoS
+K\>=73\ And K\<=84\ And L\>=24\ And L\<=32\=>\GotoT
+K\>=73\ And K\<=84\ And L\>=33\ And L\<=41\=>\GotoU
+K\>=73\ And K\<=84\ And L\>=42\ And L\<=49\=>\GotoV
+K\>=73\ And K\<=84\ And L\>=50\ And L\<=58\=>\GotoW
+K\>=84\ And K\<=96\ And L\>=24\ And L\<=32\=>\GotoX
+K\>=84\ And K\<=96\ And L\>=33\ And L\<=41\=>\GotoY
+K\>=84\ And K\<=96\ And L\>=42\ And L\<=49\=>\GotoZ
+K\>=84\ And K\<=96\ And L\>=50\ And L\<=58\=>\Goto\r
+\Prog "-.PTGUI6"
+\Return
+\Lbl 0:31\->V
+\Prog "-.PTSRCH"
+\Return
+\Lbl 1:55\->V
+\Prog "-.PTSRCL"
+\Return
+\Lbl 2:76\->V
+\Prog "-.PTSRCN"
+\Return
+\Lbl 3:31\->V
+\Prog "-.PTSRCK"
+\Return
+\Lbl 4:66\->V
+\Prog "-.PTSRCR"
+\Return
+\Lbl 5:43\->V
+\Prog "-.PTSRCC"
+\Return
+\Lbl 6:53\->V
+\Prog "-.PTSRCF"
+\Return
+\Lbl 7:36\->V
+\Prog "-.PTSRCB"
+\Return
+\Lbl 8:75\->V
+\Prog "-.PTSRCM"
+\Return
+\Lbl 9:76\->V
+\Prog "-.PTSRCC"
+\Return
+\Lbl A:53\->V
+\Prog "-.PTSRCS"
+\Return
+\Lbl B:76\->V
+\Prog "-.PTSRCB"
+\Return
+\Lbl C:76\->V
+\Prog "-.PTSRCR"
+\Return
+\Lbl D:56\->V
+\Prog "-.PTSRCS"
+\Return
+\Lbl E:31\->V
+\Prog "-.PTSRCY"
+\Return
+\Lbl F:76\->V
+\Prog "-.PTSRCL"
+\Return
+\Lbl G:56\->V
+\Prog "-.PTSRCA"
+\Return
+\Lbl H:55\->V
+\Prog "-.PTSRCT"
+\Return
+\Lbl I:53\->V
+\Prog "-.PTSRCZ"
+\Return
+\Lbl J:26\->V
+\Prog "-.PTSRCH"
+\Return
+\Lbl K:26\->V
+\Prog "-.PTSRCR"
+\Return
+\Lbl L:31\->V
+\Prog "-.PTSRCV"
+\Return
+\Lbl M:66\->V
+\Prog "-.PTSRCN"
+\Return
+\Lbl N:76\->V
+\Prog "-.PTSRCT"
+\Return
+\Lbl O:66\->V
+\Prog "-.PTSRCD"
+\Return
+\Lbl P:53\->V
+\Prog "-.PTSRCC"
+\Return
+\Lbl Q:54\->V
+\Prog "-.PTSRCM"
+\Return
+\Lbl R:31\->V
+\Prog "-.PTSRCW"
+\Return
+\Lbl S:75\->V
+\Prog "-.PTSRCS"
+\Return
+\Lbl T:64\->V
+\Prog "-.PTSRCM"
+\Return
+\Lbl U:56\->V
+\Prog "-.PTSRCT"
+\Return
+\Lbl V:36\->V
+\Prog "-.PTSRCR"
+\Return
+\Lbl W:65\->V
+\Prog "-.PTSRCB"
+\Return
+\Lbl X:36\->V
+\Prog "-.PTSRCF"
+\Return
+\Lbl Y:72\->V
+\Prog "-.PTSRCR"
+\Return
+\Lbl Z:43\->V
+\Prog "-.PTSRCO"
+\Return
+\Lbl \r:43\->V
+\Prog "-.PTSRCH"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:1086
+File Name:-.PTGUI3
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+K\>=0\ And K\<=9\ And L\>=41\ And L\<=54\=>\Goto0
+K\>=0\ And K\<=9\ And L\>=55\ And L\<=64\=>\Goto1
+K\>=10\ And K\<=19\ And L\>=41\ And L\<=54\=>\Goto2
+K\>=10\ And K\<=19\ And L\>=55\ And L\<=64\=>\Goto3
+K\>=20\ And K\<=29\ And L\>=41\ And L\<=54\=>\Goto4
+K\>=20\ And K\<=29\ And L\>=55\ And L\<=64\=>\Goto5
+K\>=30\ And K\<=40\ And L\>=41\ And L\<=54\=>\Goto6
+K\>=30\ And K\<=40\ And L\>=55\ And L\<=64\=>\Goto7
+K\>=41\ And K\<=53\ And L\>=41\ And L\<=54\=>\Goto8
+K\>=41\ And K\<=53\ And L\>=55\ And L\<=64\=>\Goto9
+K\>=54\ And K\<=65\ And L\>=41\ And L\<=54\=>\GotoA
+K\>=54\ And K\<=65\ And L\>=55\ And L\<=64\=>\GotoB
+K\>=66\ And K\<=78\ And L\>=41\ And L\<=54\=>\GotoC
+K\>=66\ And K\<=78\ And L\>=55\ And L\<=64\=>\GotoD
+K\>=79\ And K\<=91\ And L\>=41\ And L\<=54\=>\GotoE
+K\>=79\ And K\<=91\ And L\>=55\ And L\<=64\=>\GotoF
+K\>=92\ And K\<=104\ And L\>=41\ And L\<=54\=>\GotoG
+K\>=92\ And K\<=104\ And L\>=55\ And L\<=64\=>\GotoH
+K\>=105\ And K\<=116\ And L\>=41\ And L\<=54\=>\GotoI
+K\>=105\ And K\<=116\ And L\>=55\ And L\<=64\=>\GotoJ
+K\>=117\ And K\<=126\ And L\>=41\ And L\<=54\=>\GotoK
+K\>=117\ And K\<=126\ And L\>=55\ And L\<=64\=>\GotoL
+\Return
+\Lbl 0:76\->V
+\Prog "-.PTSRCL"
+\Return
+\Lbl 1:56\->V
+\Prog "-.PTSRCA"
+\Return
+\Lbl 2:36\->V
+\Prog "-.PTSRCC"
+\Return
+\Lbl 3:65\->V
+\Prog "-.PTSRCT"
+\Return
+\Lbl 4:53\->V
+\Prog "-.PTSRCP"
+\Return
+\Lbl 5:76\->V
+\Prog "-.PTSRCP"
+\Return
+\Lbl 6:46\->V
+\Prog "-.PTSRCN"
+\Return
+\Lbl 7:31\->V
+\Prog "-.PTSRCU"
+\Return
+\Lbl 8:74\->V
+\Prog "-.PTSRCP"
+\Return
+\Lbl 9:73\->V
+\Prog "-.PTSRCN"
+\Return
+\Lbl A:74\->V
+\Prog "-.PTSRCS"
+\Return
+\Lbl B:72\->V
+\Prog "-.PTSRCP"
+\Return
+\Lbl C:72\->V
+\Prog "-.PTSRCE"
+\Return
+\Lbl D:74\->V
+\Prog "-.PTSRCA"
+\Return
+\Lbl E:46\->V
+\Prog "-.PTSRCG"
+\Return
+\Lbl F:74\->V
+\Prog "-.PTSRCC"
+\Return
+\Lbl G:66\->V
+\Prog "-.PTSRCT"
+\Return
+\Lbl H:35\->V
+\Prog "-.PTSRCB"
+\Return
+\Lbl I:32\->V
+\Prog "-.PTSRCD"
+\Return
+\Lbl J:26\->V
+\Prog "-.PTSRCC"
+\Return
+\Lbl K:54\->V
+\Prog "-.PTSRCH"
+\Return
+\Lbl L:43\->V
+\Prog "-.PTSRCE"
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:395
+File Name:-.PTGUI4
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+K\>=0\ And K\<=11\ And L\>=41\ And L\<=54\=>\Goto0
+K\>=0\ And K\<=11\ And L\>=55\ And L\<=64\=>\Goto1
+K\>=12\ And K\<=23\ And L\>=41\ And L\<=54\=>\Goto2
+K\>=12\ And K\<=23\ And L\>=55\ And L\<=64\=>\Goto3
+K\>=24\ And K\<=35\ And L\>=42\ And L\<=54\=>\Goto4
+K\>=24\ And K\<=35\ And L\>=55\ And L\<=64\=>\Goto5
+K\>=36\ And K\<=47\ And L\>=42\ And L\<=53\=>\Goto6
+K\>=36\ And K\<=47\ And L\>=54\ And L\<=64\=>\Goto7
+\Return
+\Lbl 0:53\->V
+\Prog "-.PTSRCE"
+\Return
+\Lbl 1:74\->V
+\Prog "-.PTSRCF"
+\Return
+\Lbl 2:74\->V
+\Prog "-.PTSRCT"
+\Return
+\Lbl 3:46\->V
+\Prog "-.PTSRCM"
+\Return
+\Lbl 4:66\->V
+\Prog "-.PTSRCY"
+\Return
+\Lbl 5:54\->V
+\Prog "-.PTSRCN"
+\Return
+\Lbl 6:72\->V
+\Prog "-.PTSRCL"
+\Return
+\Lbl 7:53\->V
+\Prog "-.PTSRCL"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:1878
+File Name:-.PTGUI5
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+K\>=0\ And K\<=11\ And L\>=31\ And L\<=38\=>\Goto0
+K\>=0\ And K\<=11\ And L\>=39\ And L\<=47\=>\Goto1
+K\>=0\ And K\<=11\ And L\>=48\ And L\<=54\=>\Goto2
+K\>=0\ And K\<=11\ And L\>=55\ And L\<=64\=>\Goto3
+K\>=12\ And K\<=22\ And L\>=31\ And L\<=38\=>\Goto4
+K\>=12\ And K\<=22\ And L\>=39\ And L\<=47\=>\Goto5
+K\>=12\ And K\<=22\ And L\>=48\ And L\<=54\=>\Goto6
+K\>=23\ And K\<=33\ And L\>=14\ And L\<=20\=>\Goto7
+K\>=23\ And K\<=33\ And L\>=21\ And L\<=28\=>\Goto8
+K\>=23\ And K\<=33\ And L\>=29\ And L\<=36\=>\Goto9
+K\>=23\ And K\<=33\ And L\>=37\ And L\<=44\=>\GotoA
+K\>=23\ And K\<=33\ And L\>=45\ And L\<=52\=>\GotoB
+K\>=34\ And K\<=45\ And L\>=14\ And L\<=20\=>\GotoC
+K\>=34\ And K\<=45\ And L\>=21\ And L\<=28\=>\GotoD
+K\>=34\ And K\<=45\ And L\>=29\ And L\<=36\=>\GotoE
+K\>=34\ And K\<=45\ And L\>=37\ And L\<=44\=>\GotoF
+K\>=34\ And K\<=45\ And L\>=45\ And L\<=52\=>\GotoG
+K\>=46\ And K\<=57\ And L\>=14\ And L\<=20\=>\GotoH
+K\>=46\ And K\<=57\ And L\>=21\ And L\<=28\=>\GotoI
+K\>=46\ And K\<=57\ And L\>=29\ And L\<=36\=>\GotoJ
+K\>=46\ And K\<=57\ And L\>=37\ And L\<=44\=>\GotoK
+K\>=46\ And K\<=57\ And L\>=45\ And L\<=52\=>\GotoL
+K\>=58\ And K\<=69\ And L\>=14\ And L\<=20\=>\GotoM
+K\>=58\ And K\<=69\ And L\>=21\ And L\<=28\=>\GotoN
+K\>=58\ And K\<=69\ And L\>=29\ And L\<=36\=>\GotoO
+K\>=58\ And K\<=69\ And L\>=37\ And L\<=44\=>\GotoP
+K\>=58\ And K\<=69\ And L\>=45\ And L\<=52\=>\GotoQ
+K\>=70\ And K\<=81\ And L\>=14\ And L\<=20\=>\GotoR
+K\>=70\ And K\<=81\ And L\>=21\ And L\<=28\=>\GotoS
+K\>=70\ And K\<=81\ And L\>=29\ And L\<=36\=>\GotoT
+K\>=70\ And K\<=81\ And L\>=37\ And L\<=44\=>\GotoU
+K\>=70\ And K\<=81\ And L\>=45\ And L\<=52\=>\GotoV
+K\>=82\ And K\<=93\ And L\>=7\ And L\<=13\=>\GotoW
+K\>=82\ And K\<=93\ And L\>=14\ And L\<=20\=>\GotoX
+K\>=82\ And K\<=93\ And L\>=21\ And L\<=28\=>\GotoY
+K\>=82\ And K\<=93\ And L\>=29\ And L\<=36\=>\GotoZ
+K\>=82\ And K\<=93\ And L\>=37\ And L\<=44\=>\Goto\r
+K\>=82\ And K\<=93\ And L\>=45\ And L\<=52\=>\Goto\theta
+1\->A:\Prog "-.PTGUI6"
+\Return
+\Lbl 0:72\->V
+\Prog "-.PTSRCC"
+\Return
+\Lbl 1:75\->V
+\Prog "-.PTSRCA"
+\Return
+\Lbl 2:72\->V
+\Prog "-.PTSRCA"
+\Return
+\Lbl 3:75\->V
+\Prog "-.PTSRCR"
+\Return
+\Lbl 4:64\->V
+\Prog "-.PTSRCZ"
+\Return
+\Lbl 5:46\->V
+\Prog "-.PTSRCC"
+\Return
+\Lbl 6:75\->V
+\Prog "-.PTSRCH"
+\Return
+\Lbl 7:31\->V
+\Prog "-.PTSRCB"
+\Return
+\Lbl 8:25\->V
+\Prog "-.PTSRCA"
+\Return
+\Lbl 9:76\->V
+\Prog "-.PTSRCG"
+\Return
+\Lbl A:64\->V
+\Prog "-.PTSRCI"
+\Return
+\Lbl B:25\->V
+\Prog "-.PTSRCT"
+\Return
+\Lbl C:31\->V
+\Prog "-.PTSRCC"
+\Return
+\Lbl D:55\->V
+\Prog "-.PTSRCS"
+\Return
+\Lbl E:36\->V
+\Prog "-.PTSRCG"
+\Return
+\Lbl F:64\->V
+\Prog "-.PTSRCS"
+\Return
+\Lbl G:66\->V
+\Prog "-.PTSRCP"
+\Return
+\Lbl H:31\->V
+\Prog "-.PTSRCN"
+\Return
+\Lbl I:31\->V
+\Prog "-.PTSRCP"
+\Return
+\Lbl J:43\->V
+\Prog "-.PTSRCA"
+\Return
+\Lbl K:66\->V
+\Prog "-.PTSRCS"
+\Return
+\Lbl L:55\->V
+\Prog "-.PTSRCB"
+\Return
+\Lbl M:31\->V
+\Prog "-.PTSRCO"
+\Return
+\Lbl N:31\->V
+\Prog "-.PTSRCS"
+\Return
+\Lbl O:36\->V
+\Prog "-.PTSRCS"
+\Return
+\Lbl P:36\->V
+\Prog "-.PTSRCT"
+\Return
+\Lbl Q:54\->V
+\Prog "-.PTSRCP"
+\Return
+\Lbl R:31\->V
+\Prog "-.PTSRCF"
+\Return
+\Lbl S:25\->V
+\Prog "-.PTSRCC"
+\Return
+\Lbl T:53\->V
+\Prog "-.PTSRCB"
+\Return
+\Lbl U:31\->V
+\Prog "-.PTSRCI"
+\Return
+\Lbl V:33\->V
+\Prog "-.PTSRCA"
+\Return
+\Lbl W:36\->V
+\Prog "-.PTSRCH"
+\Return
+\Lbl X:36\->V
+\Prog "-.PTSRCN"
+\Return
+\Lbl Y:53\->V
+\Prog "-.PTSRCA"
+\Return
+\Lbl Z:53\->V
+\Prog "-.PTSRCK"
+\Return
+\Lbl \r:36\->V
+\Prog "-.PTSRCX"
+\Return
+\Lbl \theta:64\->V
+\Prog "-.PTSRCR"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:471
+File Name:-.PTGUI6
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+A=1\=>\Goto\theta
+K\>=97\ And K\<=109\ And L\>=24\ And L\<=32\=>\Goto0
+K\>=97\ And K\<=109\ And L\>=33\ And L\<=41\=>\Goto1
+K\>=97\ And K\<=109\ And L\>=42\ And L\<=49\=>\Goto2
+K\>=97\ And K\<=109\ And L\>=50\ And L\<=58\=>\Goto3
+K\>=110\ And K\<=122\ And L\>=24\ And L\<=32\=>\Goto4
+K\>=110\ And K\<=122\ And L\>=33\ And L\<=41\=>\Goto5
+K\>=110\ And K\<=122\ And L\>=42\ And L\<=49\=>\Goto6
+K\>=110\ And K\<=122\ And L\>=50\ And L\<=58\=>\Goto7
+\Return
+\Lbl 0:54\->V
+\Prog "-.PTSRCC"
+\Return
+\Lbl 1:65\->V
+\Prog "-.PTSRCR"
+\Return
+\Lbl 2:53\->V
+\Prog "-.PTSRCI"
+\Return
+\Lbl 3:33\->V
+\Prog "-.PTSRCM"
+\Return
+\Lbl 4:55\->V
+\Prog "-.PTSRCN"
+\Return
+\Lbl 5:46\->V
+\Prog "-.PTSRCP"
+\Return
+\Lbl 6:33\->V
+\Prog "-.PTSRCP"
+\Return
+\Lbl 7:43\->V
+\Prog "-.PTSRCD"
+\Return
+\Lbl \theta:K\>=12\ And K\<=22\ And L\>=57\ And L\<=64\=>\Goto8
+\Return
+\Lbl 8:64\->V
+\Prog "-.PTSRCC"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:911
+File Name:-.PTEDSP
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+\Text 11,3,"Atomic number:"
+\Text 11,70,G
+\Text 17,3,"Atomic mass:"
+\Text 17,57,H
+\Text 23,3,"Period:"
+\Text 23,32,I
+\Text 29,3,"Group\slashSeries:"
+J=1\=>\Goto1
+J=2\=>\Goto2
+J=3\=>\Goto3
+J=4\=>\Goto4
+J=5\=>\Goto5
+J=6\=>\Goto6
+J=7\=>\Goto7
+J=8\=>\Goto8
+J=9\=>\Goto0
+J=10\=>\GotoF
+J=11\=>\GotoG
+\Goto9
+\Lbl 1:\Text 29,57,"Alkali Metals (1)"
+\Goto9
+\Lbl 2:\Text 29,57,"Alkaline Earth(2)"
+\Goto9
+\Lbl 3:\Text 29,57,"B\oron Group (3)"
+\Goto9
+\Lbl 4:\Text 29,57,"Carbon Group (4)"
+\Goto9
+\Lbl 5:\Text 29,57,"Nitrogen Group(5)"
+\Goto9
+\Lbl 6:\Text 29,57,"Chalcogens (6)"
+\Goto9
+\Lbl 7:\Text 29,57,"Halogens (7)"
+\Goto9
+\Lbl 8:\Text 29,57,"Noble Gases (8)"
+\Goto9
+\Lbl 0:\Text 29,57,"Transition Metals"
+\Goto9
+\Lbl F:\Text 29,57,"Lanthanide Series"
+\Goto9
+\Lbl G:\Text 29,57,"Actinide Series"
+\Lbl 9:\Text 35,3,"F\orm at 100\DmsC, 100KPa:"
+K=1\=>\GotoA
+K=2\=>\GotoB
+K=3\=>\GotoC
+K=0\=>\GotoN
+\GotoD
+\Lbl A:\Text 35,95,"Solid"
+\GotoD
+\Lbl B:\Text 35,95,"Liquid"
+\GotoD
+\Lbl C:\Text 35,95,"Gas"
+\GotoD
+\Lbl N:\Text 35,95,"N\slashA"
+\Lbl D:M=1\=>\GotoK
+\Text 41,3,"Protons:"
+\Text 41,40,L
+\Lbl E:\Text 41,55,"Neutrons:"
+\Text 41,100,N
+\Lbl K:M=0\=>O=0\=>\GotoO
+M=1\=>O=0\=>\GotoP
+M=1\=>O=1\=>\GotoQ
+\Lbl O:\Text 47,3,"Stable, \ Not synthetic"
+\Return
+\Lbl P:\Text 41,3,"Unstable, \ Not synthetic"
+\Return
+\Lbl Q:\Text 41,3,"Unstable, synthetic
+%End
