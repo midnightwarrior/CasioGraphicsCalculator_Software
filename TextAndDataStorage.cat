@@ -1,0 +1,1537 @@
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:MT
+Rows:1
+Columns:6
+Variable Name:Mat A
+Group Name:
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+Value : 1 2 0
+Value : 1 3 0
+Value : 1 4 0
+Value : 1 5 0
+Value : 1 6 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:MT
+Rows:21
+Columns:7
+Variable Name:Mat B
+Group Name:
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+Value : 1 2 0
+Value : 1 3 0
+Value : 1 4 0
+Value : 1 5 0
+Value : 1 6 0
+Value : 1 7 0
+Value : 2 1 0
+Value : 2 2 0
+Value : 2 3 0
+Value : 2 4 0
+Value : 2 5 0
+Value : 2 6 0
+Value : 2 7 0
+Value : 3 1 0
+Value : 3 2 0
+Value : 3 3 0
+Value : 3 4 0
+Value : 3 5 0
+Value : 3 6 0
+Value : 3 7 0
+Value : 4 1 0
+Value : 4 2 0
+Value : 4 3 0
+Value : 4 4 0
+Value : 4 5 0
+Value : 4 6 0
+Value : 4 7 0
+Value : 5 1 0
+Value : 5 2 0
+Value : 5 3 0
+Value : 5 4 0
+Value : 5 5 0
+Value : 5 6 0
+Value : 5 7 0
+Value : 6 1 0
+Value : 6 2 0
+Value : 6 3 0
+Value : 6 4 0
+Value : 6 5 0
+Value : 6 6 0
+Value : 6 7 0
+Value : 7 1 0
+Value : 7 2 0
+Value : 7 3 0
+Value : 7 4 0
+Value : 7 5 0
+Value : 7 6 0
+Value : 7 7 0
+Value : 8 1 0
+Value : 8 2 0
+Value : 8 3 0
+Value : 8 4 0
+Value : 8 5 0
+Value : 8 6 0
+Value : 8 7 0
+Value : 9 1 0
+Value : 9 2 0
+Value : 9 3 0
+Value : 9 4 0
+Value : 9 5 0
+Value : 9 6 0
+Value : 9 7 0
+Value : 10 1 0
+Value : 10 2 0
+Value : 10 3 0
+Value : 10 4 0
+Value : 10 5 0
+Value : 10 6 0
+Value : 10 7 0
+Value : 11 1 0
+Value : 11 2 0
+Value : 11 3 0
+Value : 11 4 0
+Value : 11 5 0
+Value : 11 6 0
+Value : 11 7 0
+Value : 12 1 0
+Value : 12 2 0
+Value : 12 3 0
+Value : 12 4 0
+Value : 12 5 0
+Value : 12 6 0
+Value : 12 7 0
+Value : 13 1 0
+Value : 13 2 0
+Value : 13 3 0
+Value : 13 4 0
+Value : 13 5 0
+Value : 13 6 0
+Value : 13 7 0
+Value : 14 1 0
+Value : 14 2 0
+Value : 14 3 0
+Value : 14 4 0
+Value : 14 5 0
+Value : 14 6 0
+Value : 14 7 0
+Value : 15 1 0
+Value : 15 2 0
+Value : 15 3 0
+Value : 15 4 0
+Value : 15 5 0
+Value : 15 6 0
+Value : 15 7 0
+Value : 16 1 0
+Value : 16 2 0
+Value : 16 3 0
+Value : 16 4 0
+Value : 16 5 0
+Value : 16 6 0
+Value : 16 7 0
+Value : 17 1 0
+Value : 17 2 0
+Value : 17 3 0
+Value : 17 4 0
+Value : 17 5 0
+Value : 17 6 0
+Value : 17 7 0
+Value : 18 1 0
+Value : 18 2 0
+Value : 18 3 0
+Value : 18 4 0
+Value : 18 5 0
+Value : 18 6 0
+Value : 18 7 0
+Value : 19 1 0
+Value : 19 2 0
+Value : 19 3 0
+Value : 19 4 0
+Value : 19 5 0
+Value : 19 6 0
+Value : 19 7 0
+Value : 20 1 0
+Value : 20 2 0
+Value : 20 3 0
+Value : 20 4 0
+Value : 20 5 0
+Value : 20 6 0
+Value : 20 7 0
+Value : 21 1 0
+Value : 21 2 0
+Value : 21 3 0
+Value : 21 4 0
+Value : 21 5 0
+Value : 21 6 0
+Value : 21 7 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:MT
+Rows:1
+Columns:255
+Variable Name:Mat C
+Group Name:
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+Value : 1 2 0
+Value : 1 3 0
+Value : 1 4 0
+Value : 1 5 0
+Value : 1 6 0
+Value : 1 7 0
+Value : 1 8 0
+Value : 1 9 0
+Value : 1 10 0
+Value : 1 11 0
+Value : 1 12 0
+Value : 1 13 0
+Value : 1 14 0
+Value : 1 15 0
+Value : 1 16 0
+Value : 1 17 0
+Value : 1 18 0
+Value : 1 19 0
+Value : 1 20 0
+Value : 1 21 0
+Value : 1 22 0
+Value : 1 23 0
+Value : 1 24 0
+Value : 1 25 0
+Value : 1 26 0
+Value : 1 27 0
+Value : 1 28 0
+Value : 1 29 0
+Value : 1 30 0
+Value : 1 31 0
+Value : 1 32 0
+Value : 1 33 0
+Value : 1 34 0
+Value : 1 35 0
+Value : 1 36 0
+Value : 1 37 0
+Value : 1 38 0
+Value : 1 39 0
+Value : 1 40 0
+Value : 1 41 0
+Value : 1 42 0
+Value : 1 43 0
+Value : 1 44 0
+Value : 1 45 0
+Value : 1 46 0
+Value : 1 47 0
+Value : 1 48 0
+Value : 1 49 0
+Value : 1 50 0
+Value : 1 51 0
+Value : 1 52 0
+Value : 1 53 0
+Value : 1 54 0
+Value : 1 55 0
+Value : 1 56 0
+Value : 1 57 0
+Value : 1 58 0
+Value : 1 59 0
+Value : 1 60 0
+Value : 1 61 0
+Value : 1 62 0
+Value : 1 63 0
+Value : 1 64 0
+Value : 1 65 0
+Value : 1 66 0
+Value : 1 67 0
+Value : 1 68 0
+Value : 1 69 0
+Value : 1 70 0
+Value : 1 71 0
+Value : 1 72 0
+Value : 1 73 0
+Value : 1 74 0
+Value : 1 75 0
+Value : 1 76 0
+Value : 1 77 0
+Value : 1 78 0
+Value : 1 79 0
+Value : 1 80 0
+Value : 1 81 0
+Value : 1 82 0
+Value : 1 83 0
+Value : 1 84 0
+Value : 1 85 0
+Value : 1 86 0
+Value : 1 87 0
+Value : 1 88 0
+Value : 1 89 0
+Value : 1 90 0
+Value : 1 91 0
+Value : 1 92 0
+Value : 1 93 0
+Value : 1 94 0
+Value : 1 95 0
+Value : 1 96 0
+Value : 1 97 0
+Value : 1 98 0
+Value : 1 99 0
+Value : 1 100 0
+Value : 1 101 0
+Value : 1 102 0
+Value : 1 103 0
+Value : 1 104 0
+Value : 1 105 0
+Value : 1 106 0
+Value : 1 107 0
+Value : 1 108 0
+Value : 1 109 0
+Value : 1 110 0
+Value : 1 111 0
+Value : 1 112 0
+Value : 1 113 0
+Value : 1 114 0
+Value : 1 115 0
+Value : 1 116 0
+Value : 1 117 0
+Value : 1 118 0
+Value : 1 119 0
+Value : 1 120 0
+Value : 1 121 0
+Value : 1 122 0
+Value : 1 123 0
+Value : 1 124 0
+Value : 1 125 0
+Value : 1 126 0
+Value : 1 127 0
+Value : 1 128 0
+Value : 1 129 0
+Value : 1 130 0
+Value : 1 131 0
+Value : 1 132 0
+Value : 1 133 0
+Value : 1 134 0
+Value : 1 135 0
+Value : 1 136 0
+Value : 1 137 0
+Value : 1 138 0
+Value : 1 139 0
+Value : 1 140 0
+Value : 1 141 0
+Value : 1 142 0
+Value : 1 143 0
+Value : 1 144 0
+Value : 1 145 0
+Value : 1 146 0
+Value : 1 147 0
+Value : 1 148 0
+Value : 1 149 0
+Value : 1 150 0
+Value : 1 151 0
+Value : 1 152 0
+Value : 1 153 0
+Value : 1 154 0
+Value : 1 155 0
+Value : 1 156 0
+Value : 1 157 0
+Value : 1 158 0
+Value : 1 159 0
+Value : 1 160 0
+Value : 1 161 0
+Value : 1 162 0
+Value : 1 163 0
+Value : 1 164 0
+Value : 1 165 0
+Value : 1 166 0
+Value : 1 167 0
+Value : 1 168 0
+Value : 1 169 0
+Value : 1 170 0
+Value : 1 171 0
+Value : 1 172 0
+Value : 1 173 0
+Value : 1 174 0
+Value : 1 175 0
+Value : 1 176 0
+Value : 1 177 0
+Value : 1 178 0
+Value : 1 179 0
+Value : 1 180 0
+Value : 1 181 0
+Value : 1 182 0
+Value : 1 183 0
+Value : 1 184 0
+Value : 1 185 0
+Value : 1 186 0
+Value : 1 187 0
+Value : 1 188 0
+Value : 1 189 0
+Value : 1 190 0
+Value : 1 191 0
+Value : 1 192 0
+Value : 1 193 0
+Value : 1 194 0
+Value : 1 195 0
+Value : 1 196 0
+Value : 1 197 0
+Value : 1 198 0
+Value : 1 199 0
+Value : 1 200 0
+Value : 1 201 0
+Value : 1 202 0
+Value : 1 203 0
+Value : 1 204 0
+Value : 1 205 0
+Value : 1 206 0
+Value : 1 207 0
+Value : 1 208 0
+Value : 1 209 0
+Value : 1 210 0
+Value : 1 211 0
+Value : 1 212 0
+Value : 1 213 0
+Value : 1 214 0
+Value : 1 215 0
+Value : 1 216 0
+Value : 1 217 0
+Value : 1 218 0
+Value : 1 219 0
+Value : 1 220 0
+Value : 1 221 0
+Value : 1 222 0
+Value : 1 223 0
+Value : 1 224 0
+Value : 1 225 0
+Value : 1 226 0
+Value : 1 227 0
+Value : 1 228 0
+Value : 1 229 0
+Value : 1 230 0
+Value : 1 231 0
+Value : 1 232 0
+Value : 1 233 0
+Value : 1 234 0
+Value : 1 235 0
+Value : 1 236 0
+Value : 1 237 0
+Value : 1 238 0
+Value : 1 239 0
+Value : 1 240 0
+Value : 1 241 0
+Value : 1 242 0
+Value : 1 243 0
+Value : 1 244 0
+Value : 1 245 0
+Value : 1 246 0
+Value : 1 247 0
+Value : 1 248 0
+Value : 1 249 0
+Value : 1 250 0
+Value : 1 251 0
+Value : 1 252 0
+Value : 1 253 0
+Value : 1 254 0
+Value : 1 255 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:MT
+Rows:1
+Columns:57
+Variable Name:Mat D
+Group Name:
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+Value : 1 2 0
+Value : 1 3 0
+Value : 1 4 0
+Value : 1 5 0
+Value : 1 6 0
+Value : 1 7 0
+Value : 1 8 0
+Value : 1 9 0
+Value : 1 10 0
+Value : 1 11 0
+Value : 1 12 0
+Value : 1 13 0
+Value : 1 14 0
+Value : 1 15 0
+Value : 1 16 0
+Value : 1 17 0
+Value : 1 18 0
+Value : 1 19 0
+Value : 1 20 0
+Value : 1 21 0
+Value : 1 22 0
+Value : 1 23 0
+Value : 1 24 0
+Value : 1 25 0
+Value : 1 26 0
+Value : 1 27 0
+Value : 1 28 0
+Value : 1 29 0
+Value : 1 30 0
+Value : 1 31 0
+Value : 1 32 0
+Value : 1 33 0
+Value : 1 34 0
+Value : 1 35 0
+Value : 1 36 0
+Value : 1 37 0
+Value : 1 38 0
+Value : 1 39 0
+Value : 1 40 0
+Value : 1 41 0
+Value : 1 42 0
+Value : 1 43 0
+Value : 1 44 0
+Value : 1 45 0
+Value : 1 46 0
+Value : 1 47 0
+Value : 1 48 0
+Value : 1 49 0
+Value : 1 50 0
+Value : 1 51 0
+Value : 1 52 0
+Value : 1 53 0
+Value : 1 54 0
+Value : 1 55 0
+Value : 1 56 0
+Value : 1 57 0
+%End
+%Header Record
+Format:VAL
+Communication SW:0
+Data Type:MT
+Rows:1
+Columns:7
+Variable Name:Mat E
+Group Name:
+Variable Type:R
+Variable Length:10
+Option1:
+Option2:
+Option3:
+Option4:
+%Data Record
+Value : 1 1 0
+Value : 1 2 0
+Value : 1 3 0
+Value : 1 4 0
+Value : 1 5 0
+Value : 1 6 0
+Value : 1 7 0
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:291
+File Name:TXTENTRY
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+\ClrText
+0\->\Mat A[1,5]
+\Fill(0,\Mat E)
+\Fill(0,\Mat C)
+\Fill(0,\Mat D)
+\Fill(0,\Mat B)
+\Locate 13,7,"alphalock"
+0\->\Mat A[1,6]
+'INIT POSITION
+\Goto8
+\Lbl 0
+'SCANCODE TO ASCII
+\Prog "-.SC2ASC"
+\Mat A[1,2]\->\theta
+\theta\>=65\=>\theta\<=90\=>\GotoD
+\theta\>=97\=>\theta\<=122\=>\GotoE
+\theta\>=48\=>\theta\<=57\=>\GotoF
+\theta=0\=>\Goto0
+\Prog "-.SY0DSP"
+\Prog "-.SY1DSP"
+\Lbl D:\Prog "-.UCTDSP"
+\Goto9
+\Lbl E:\Prog "-.LCTDSP"
+\Goto9
+\Lbl F:\Prog "-.NUMDSP"
+\Goto9
+\Lbl 9
+\Lbl 8:\Prog "-.UPSPOS"
+\Goto0
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:17
+File Name:-.GETKEY
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+\Lbl 0:\Getkey\->\theta
+\theta=0\=>\Goto0
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:766
+File Name:-.LCTDSP
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'LOWER CASE TEXT DISPLAY
+\Prog "-.UPSPOS"
+\Mat A[1,2]\->\theta
+\Mat A[1,3]\->A
+\Mat A[1,4]\->B
+\Mat A[1,5]+1\->\Mat A[1,5]
+\theta=97\=>\GotoA
+\theta=98\=>\GotoB
+\theta=99\=>\GotoC
+\theta=100\=>\GotoD
+\theta=101\=>\GotoE
+\theta=102\=>\GotoF
+\theta=103\=>\GotoG
+\theta=104\=>\GotoH
+\theta=105\=>\GotoI
+\theta=106\=>\GotoJ
+\theta=107\=>\GotoK
+\theta=108\=>\GotoL
+\theta=109\=>\GotoM
+\theta=110\=>\GotoN
+\theta=111\=>\GotoO
+\theta=112\=>\GotoP
+\theta=113\=>\GotoQ
+\theta=114\=>\GotoR
+\theta=115\=>\GotoS
+\theta=116\=>\GotoT
+\theta=117\=>\GotoU
+\theta=118\=>\GotoV
+\theta=119\=>\GotoW
+\theta=120\=>\GotoX
+\theta=121\=>\GotoY
+\theta=122\=>\GotoZ
+\Mat A[1,5]-1\->\Mat A[1,5]
+\Return
+\Lbl A:\Locate A,B,"a"
+\Return
+\Lbl B:\Locate A,B,"b"
+\Return
+\Lbl C:\Locate A,B,"c"
+\Return
+\Lbl D:\Locate A,B,"d"
+\Return
+\Lbl E:\Locate A,B,"e"
+\Return
+\Lbl F:\Locate A,B,"f"
+\Return
+\Lbl G:\Locate A,B,"g"
+\Return
+\Lbl H:\Locate A,B,"h"
+\Return
+\Lbl I:\Locate A,B,"i"
+\Return
+\Lbl J:\Locate A,B,"j"
+\Return
+\Lbl K:\Locate A,B,"k"
+\Return
+\Lbl L:\Locate A,B,"l"
+\Return
+\Lbl M:\Locate A,B,"m"
+\Return
+\Lbl N:\Locate A,B,"n"
+\Return
+\Lbl O:\Locate A,B,"o"
+\Return
+\Lbl P:\Locate A,B,"\@7FD2"
+\Return
+\Lbl Q:\Locate A,B,"q"
+\Return
+\Lbl R:\Locate A,B,"r"
+\Return
+\Lbl S:\Locate A,B,"\@7FD4"
+\Return
+\Lbl T:\Locate A,B,"\@7FD3"
+\Return
+\Lbl U:\Locate A,B,"u"
+\Return
+\Lbl V:\Locate A,B,"v"
+\Return
+\Lbl W:\Locate A,B,"w"
+\Return
+\Lbl X:\Locate A,B,"x"
+\Return
+\Lbl Y:\Locate A,B,"y"
+\Return
+\Lbl Z:\Locate A,B,"\@7FD1"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:347
+File Name:-.NUMDSP
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'NUMERAL DISPLAY
+\Prog "-.UPSPOS"
+\Mat A[1,2]\->\theta
+\Mat A[1,3]\->A
+\Mat A[1,4]\->B
+\Mat A[1,5]+1\->\Mat A[1,5]
+\theta=48\=>\GotoA
+\theta=49\=>\GotoB
+\theta=50\=>\GotoC
+\theta=51\=>\GotoD
+\theta=52\=>\GotoE
+\theta=53\=>\GotoF
+\theta=54\=>\GotoG
+\theta=55\=>\GotoH
+\theta=56\=>\GotoI
+\theta=57\=>\GotoJ
+\Mat A[1,5]-1\->\Mat A[1,5]
+\Return
+\Lbl A:\Locate A,B,"0"
+\Return
+\Lbl B:\Locate A,B,"1"
+\Return
+\Lbl C:\Locate A,B,"2"
+\Return
+\Lbl D:\Locate A,B,"3"
+\Return
+\Lbl E:\Locate A,B,"4"
+\Return
+\Lbl F:\Locate A,B,"5"
+\Return
+\Lbl G:\Locate A,B,"6"
+\Return
+\Lbl H:\Locate A,B,"7"
+\Return
+\Lbl I:\Locate A,B,"8"
+\Return
+\Lbl J:\Locate A,B,"9"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:740
+File Name:-.UCTDSP
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'UPPER CASE TEXT DISPLAY
+\Prog "-.UPSPOS"
+\Mat A[1,2]\->\theta
+\Mat A[1,3]\->A
+\Mat A[1,4]\->B
+\Mat A[1,5]+1\->\Mat A[1,5]
+\theta=65\=>\GotoA
+\theta=66\=>\GotoB
+\theta=67\=>\GotoC
+\theta=68\=>\GotoD
+\theta=69\=>\GotoE
+\theta=70\=>\GotoF
+\theta=71\=>\GotoG
+\theta=72\=>\GotoH
+\theta=73\=>\GotoI
+\theta=74\=>\GotoJ
+\theta=75\=>\GotoK
+\theta=76\=>\GotoL
+\theta=77\=>\GotoM
+\theta=78\=>\GotoN
+\theta=79\=>\GotoO
+\theta=80\=>\GotoP
+\theta=81\=>\GotoQ
+\theta=82\=>\GotoR
+\theta=83\=>\GotoS
+\theta=84\=>\GotoT
+\theta=85\=>\GotoU
+\theta=86\=>\GotoV
+\theta=87\=>\GotoW
+\theta=88\=>\GotoX
+\theta=89\=>\GotoY
+\theta=90\=>\GotoZ
+\Mat A[1,5]-1\->\Mat A[1,5]
+\Return
+\Lbl A:\Locate A,B,"A"
+\Return
+\Lbl B:\Locate A,B,"B"
+\Return
+\Lbl C:\Locate A,B,"C"
+\Return
+\Lbl D:\Locate A,B,"D"
+\Return
+\Lbl E:\Locate A,B,"E"
+\Return
+\Lbl F:\Locate A,B,"\@7FD0"
+\Return
+\Lbl G:\Locate A,B,"G"
+\Return
+\Lbl H:\Locate A,B,"H"
+\Return
+\Lbl I:\Locate A,B,"I"
+\Return
+\Lbl J:\Locate A,B,"J"
+\Return
+\Lbl K:\Locate A,B,"K"
+\Return
+\Lbl L:\Locate A,B,"L"
+\Return
+\Lbl M:\Locate A,B,"M"
+\Return
+\Lbl N:\Locate A,B,"N"
+\Return
+\Lbl O:\Locate A,B,"O"
+\Return
+\Lbl P:\Locate A,B,"P"
+\Return
+\Lbl Q:\Locate A,B,"Q"
+\Return
+\Lbl R:\Locate A,B,"R"
+\Return
+\Lbl S:\Locate A,B,"S"
+\Return
+\Lbl T:\Locate A,B,"T"
+\Return
+\Lbl U:\Locate A,B,"U"
+\Return
+\Lbl V:\Locate A,B,"V"
+\Return
+\Lbl W:\Locate A,B,"W"
+\Return
+\Lbl X:\Locate A,B,"X"
+\Return
+\Lbl Y:\Locate A,B,"Y"
+\Return
+\Lbl Z:\Locate A,B,"Z"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:285
+File Name:-.SY1DSP
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'SYMBOL1 TEXT DISPLAY
+\Prog "-.UPSPOS"
+\Mat A[1,2]\->\theta
+\Mat A[1,3]\->A
+\Mat A[1,4]\->B
+\Mat A[1,5]+1\->\Mat A[1,5]
+\theta=94\=>\GotoA
+\theta=95\=>\GotoB
+\theta=96\=>\GotoC
+\theta=123\=>\GotoD
+\theta=124\=>\GotoE
+\theta=125\=>\GotoF
+\theta=126\=>\GotoG
+\Mat A[1,5]-1\->\Mat A[1,5]
+\Return
+\Lbl A:\Locate A,B,"^"
+\Return
+\Lbl B:\Locate A,B,"\@5F"
+\Return
+\Lbl C:\Locate A,B,"'"
+\Return
+\Lbl D:\Locate A,B,"{"
+\Return
+\Lbl E:\Locate A,B,":"
+\Return
+\Lbl F:\Locate A,B,"}"
+\Return
+\Lbl G:\Locate A,B,"~"
+\Return
+
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:736
+File Name:-.SY0DSP
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'SYMBOL0 TEXT DISPLAY
+\Prog "-.UPSPOS"
+\Mat A[1,2]\->\theta
+\Mat A[1,3]\->A
+\Mat A[1,4]\->B
+\Mat A[1,5]+1\->\Mat A[1,5]
+\theta=32\=>\GotoA
+\theta=33\=>\GotoB
+\theta=34\=>\GotoC
+\theta=35\=>\GotoD
+\theta=36\=>\GotoE
+\theta=37\=>\GotoF
+\theta=38\=>\GotoG
+\theta=39\=>\GotoH
+\theta=40\=>\GotoI
+\theta=41\=>\GotoJ
+\theta=42\=>\GotoK
+\theta=43\=>\GotoL
+\theta=44\=>\GotoM
+\theta=45\=>\GotoN
+\theta=46\=>\GotoO
+\theta=47\=>\GotoP
+\theta=58\=>\GotoQ
+\theta=59\=>\GotoR
+\theta=60\=>\GotoS
+\theta=61\=>\GotoT
+\theta=62\=>\GotoU
+\theta=63\=>\GotoV
+\theta=64\=>\GotoW
+\theta=91\=>\GotoX
+\theta=92\=>\GotoY
+\theta=93\=>\GotoZ
+\Mat A[1,5]-1\->\Mat A[1,5]
+\Return
+\Lbl A:\Locate A,B," "
+\Return
+\Lbl B:\Locate A,B,"\!mark"
+\Return
+\Lbl C:\Locate A,B,"'"
+\Return
+\Lbl D:\Locate A,B,"#"
+\Return
+\Lbl E:\Locate A,B,"\@24"
+\Return
+\Lbl F:\Locate A,B,"/"
+\Return
+\Lbl G:\Locate A,B,"\@26"
+\Return
+\Lbl H:\Locate A,B,"'"
+\Return
+\Lbl I:\Locate A,B,"("
+\Return
+\Lbl J:\Locate A,B,")"
+\Return
+\Lbl K:\Locate A,B,"\aster"
+\Return
+\Lbl L:\Locate A,B,"+"
+\Return
+\Lbl M:\Locate A,B,","
+\Return
+\Lbl N:\Locate A,B,"-"
+\Return
+\Lbl O:\Locate A,B,"."
+\Return
+\Lbl P:\Locate A,B,"\slash"
+\Return
+\Lbl Q:\Locate A,B,":"
+\Return
+\Lbl R:\Locate A,B,";"
+\Return
+\Lbl S:\Locate A,B,"<"
+\Return
+\Lbl T:\Locate A,B,"="
+\Return
+\Lbl U:\Locate A,B,">"
+\Return
+\Lbl V:\Locate A,B,"?"
+\Return
+\Lbl W:\Locate A,B,"@"
+\Return
+\Lbl X:\Locate A,B,"["
+\Return
+\Lbl Y:\Locate A,B,"\slash"
+\Return
+\Lbl Z:\Locate A,B,"]"
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:739
+File Name:-.SC2ASC
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+\Prog "-.GETKEY"
+'CRUNCH SCANCODES
+\theta\->\Mat A[1,1]
+0\->\Mat A[1,2]
+\theta=44\=>\GotoA
+\theta=29\=>\GotoB
+\theta=78\=>\GotoC
+\theta=77\=>\GotoD
+\theta=47\=>\GotoE
+\Goto0
+\Lbl A:\Mat A[1,5]>0\=>\Goto\r
+\Goto\theta
+\Lbl \r:\Mat A[1,5]-1\->\Mat A[1,5]
+\Prog "-.UPSPOS"
+\Locate \Mat A[1,3],\Mat A[1,4]," "
+0\->\Mat B[\Mat A[1,3],\Mat A[1,4]]
+\Lbl \theta:\Return
+\Lbl B
+'Compress
+\Prog "-.CMPRSS"
+\Return
+\Lbl C
+'Shift key
+\Mat A[1,6]=0\=>\GotoM
+\Return
+\Lbl D
+'Alpha key
+\Mat A[1,6]=0\=>\GotoN
+\Mat A[1,6]=2\=>\GotoO
+\Return
+\Lbl E
+'Exit key
+0\->\Mat A[1,6]
+\Locate 13,7,"alphalock"
+\Return
+\Lbl M:2\->\Mat A[1,6]
+\Locate 13,7,"shiftlock"
+\Return
+\Lbl N:1\->\Mat A[1,6]
+\Locate 13,7,"ALPHA     "
+\Return
+\Lbl O:4\->\Mat A[1,6]
+\Locate 13,7,"ALPHAlock"
+\Return
+\Lbl 0:\Mat A[1,6]=0\=>\GotoP
+\Mat A[1,6]=1\=>\GotoQ
+\Mat A[1,6]=2\=>\GotoR
+\Mat A[1,6]=3\=>\GotoS
+\Mat A[1,6]=4\=>\GotoT
+\Lbl P:\Prog "-.LCTASC"
+\Mat A[1,2]\->\Mat B[\Mat A[1,3],\Mat A[1,4]]
+\Return
+\Lbl Q:\Locate 13,7,"alphalock"
+0\->\Mat A[1,6]
+\GotoT
+\Lbl R:3\->\Mat A[1,6]
+\Lbl S:\Prog "-.SFTASC"
+\Mat A[1,2]\->\Mat B[\Mat A[1,3],\Mat A[1,4]]
+\Return
+\Lbl T:\Prog "-.UCTASC"
+\Mat A[1,2]\->\Mat B[\Mat A[1,3],\Mat A[1,4]]
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:85
+File Name:-.UPSPOS
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'UPDATE SCREEN POS
+\Int (\Mat A[1,5]/21)+1\->\Mat A[1,4]
+\Int (1.4+((\Frac (\Mat A[1,5]/21))*21)\->\Mat A[1,3]
+
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:554
+File Name:-.SFTASC
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'Shifted ASCII
+\Mat A[1,1]\->\theta
+\theta=57\=>\GotoA
+\theta=55\=>\GotoB
+\theta=45\=>\GotoC
+\theta=35\=>\GotoD
+\theta=74\=>\GotoE
+\theta=64\=>\GotoF
+\theta=54\=>\GotoG
+\theta=73\=>\GotoH
+\theta=63\=>\GotoI
+\theta=53\=>\GotoJ
+\theta=43\=>\GotoK
+\theta=33\=>\GotoL
+\theta=72\=>\GotoM
+\theta=62\=>\GotoN
+\theta=52\=>\GotoO
+\theta=42\=>\GotoP
+\theta=32\=>\GotoQ
+\theta=71\=>\GotoR
+\theta=61\=>\GotoS
+\theta=41\=>\GotoT
+\Return
+\Lbl A:94\->\Mat A[1,2]
+\Return
+\Lbl B:40\->\Mat A[1,2]
+\Return
+\Lbl C:41\->\Mat A[1,2]
+\Return
+\Lbl D:44\->\Mat A[1,2]
+\Return
+\Lbl E:55\->\Mat A[1,2]
+\Return
+\Lbl F:56\->\Mat A[1,2]
+\Return
+\Lbl G:57\->\Mat A[1,2]
+\Return
+\Lbl H:52\->\Mat A[1,2]
+\Return
+\Lbl I:53\->\Mat A[1,2]
+\Return
+\Lbl J:54\->\Mat A[1,2]
+\Return
+\Lbl K:123\->\Mat A[1,2]
+\Return
+\Lbl L:125\->\Mat A[1,2]
+\Return
+\Lbl M:49\->\Mat A[1,2]
+\Return
+\Lbl N:50\->\Mat A[1,2]
+\Return
+\Lbl O:51\->\Mat A[1,2]
+\Return
+\Lbl P:91\->\Mat A[1,2]
+\Return
+\Lbl Q:93\->\Mat A[1,2]
+\Return
+\Lbl R:48\->\Mat A[1,2]
+\Return
+\Lbl S:46\->\Mat A[1,2]
+\Return
+\Lbl T:45\->\Mat A[1,2]
+\Return
+
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:738
+File Name:-.LCTASC
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'Lower case text ASCII
+\Mat A[1,1]\->\theta
+\theta=76\=>\GotoA
+\theta=66\=>\GotoB
+\theta=56\=>\GotoC
+\theta=46\=>\GotoD
+\theta=36\=>\GotoE
+\theta=26\=>\GotoF
+\theta=75\=>\GotoG
+\theta=65\=>\GotoH
+\theta=55\=>\GotoI
+\theta=45\=>\GotoJ
+\theta=35\=>\GotoK
+\theta=25\=>\GotoL
+\theta=74\=>\GotoM
+\theta=64\=>\GotoN
+\theta=54\=>\GotoO
+\theta=73\=>\GotoP
+\theta=63\=>\GotoQ
+\theta=53\=>\GotoR
+\theta=43\=>\GotoS
+\theta=33\=>\GotoT
+\theta=72\=>\GotoU
+\theta=62\=>\GotoV
+\theta=52\=>\GotoW
+\theta=42\=>\GotoX
+\theta=32\=>\GotoY
+\theta=71\=>\GotoZ
+\Return
+\Lbl A:97\->\Mat A[1,2]
+\Return
+\Lbl B:98\->\Mat A[1,2]
+\Return
+\Lbl C:99\->\Mat A[1,2]
+\Return
+\Lbl D:100\->\Mat A[1,2]
+\Return
+\Lbl E:101\->\Mat A[1,2]
+\Return
+\Lbl F:102\->\Mat A[1,2]
+\Return
+\Lbl G:103\->\Mat A[1,2]
+\Return
+\Lbl H:104\->\Mat A[1,2]
+\Return
+\Lbl I:105\->\Mat A[1,2]
+\Return
+\Lbl J:106\->\Mat A[1,2]
+\Return
+\Lbl K:107\->\Mat A[1,2]
+\Return
+\Lbl L:108\->\Mat A[1,2]
+\Return
+\Lbl M:109\->\Mat A[1,2]
+\Return
+\Lbl N:110\->\Mat A[1,2]
+\Return
+\Lbl O:111\->\Mat A[1,2]
+\Return
+\Lbl P:112\->\Mat A[1,2]
+\Return
+\Lbl Q:113\->\Mat A[1,2]
+\Return
+\Lbl R:114\->\Mat A[1,2]
+\Return
+\Lbl S:115\->\Mat A[1,2]
+\Return
+\Lbl T:116\->\Mat A[1,2]
+\Return
+\Lbl U:117\->\Mat A[1,2]
+\Return
+\Lbl V:118\->\Mat A[1,2]
+\Return
+\Lbl W:119\->\Mat A[1,2]
+\Return
+\Lbl X:120\->\Mat A[1,2]
+\Return
+\Lbl Y:121\->\Mat A[1,2]
+\Return
+\Lbl Z:122\->\Mat A[1,2]
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:741
+File Name:-.UCTASC
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'Upper case text ASCII
+\Mat A[1,1]\->\theta
+\theta=76\=>\GotoA
+\theta=66\=>\GotoB
+\theta=56\=>\GotoC
+\theta=46\=>\GotoD
+\theta=36\=>\GotoE
+\theta=26\=>\GotoF
+\theta=75\=>\GotoG
+\theta=65\=>\GotoH
+\theta=55\=>\GotoI
+\theta=45\=>\GotoJ
+\theta=35\=>\GotoK
+\theta=25\=>\GotoL
+\theta=74\=>\GotoM
+\theta=64\=>\GotoN
+\theta=54\=>\GotoO
+\theta=73\=>\GotoP
+\theta=63\=>\GotoQ
+\theta=53\=>\GotoR
+\theta=43\=>\GotoS
+\theta=33\=>\GotoT
+\theta=72\=>\GotoU
+\theta=62\=>\GotoV
+\theta=52\=>\GotoW
+\theta=42\=>\GotoX
+\theta=32\=>\GotoY
+\theta=71\=>\GotoZ
+\theta=61\=>\Goto\r
+\Return
+\Lbl A:65\->\Mat A[1,2]
+\Return
+\Lbl B:66\->\Mat A[1,2]
+\Return
+\Lbl C:67\->\Mat A[1,2]
+\Return
+\Lbl D:68\->\Mat A[1,2]
+\Return
+\Lbl E:69\->\Mat A[1,2]
+\Return
+\Lbl F:70\->\Mat A[1,2]
+\Return
+\Lbl G:71\->\Mat A[1,2]
+\Return
+\Lbl H:72\->\Mat A[1,2]
+\Return
+\Lbl I:73\->\Mat A[1,2]
+\Return
+\Lbl J:74\->\Mat A[1,2]
+\Return
+\Lbl K:75\->\Mat A[1,2]
+\Return
+\Lbl L:76\->\Mat A[1,2]
+\Return
+\Lbl M:77\->\Mat A[1,2]
+\Return
+\Lbl N:78\->\Mat A[1,2]
+\Return
+\Lbl O:79\->\Mat A[1,2]
+\Return
+\Lbl P:80\->\Mat A[1,2]
+\Return
+\Lbl Q:81\->\Mat A[1,2]
+\Return
+\Lbl R:82\->\Mat A[1,2]
+\Return
+\Lbl S:83\->\Mat A[1,2]
+\Return
+\Lbl T:84\->\Mat A[1,2]
+\Return
+\Lbl U:85\->\Mat A[1,2]
+\Return
+\Lbl V:86\->\Mat A[1,2]
+\Return
+\Lbl W:87\->\Mat A[1,2]
+\Return
+\Lbl X:88\->\Mat A[1,2]
+\Return
+\Lbl Y:89\->\Mat A[1,2]
+\Return
+\Lbl Z:90\->\Mat A[1,2]
+\Return
+\Lbl \r:32\->\Mat A[1,2]
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:268
+File Name:-.CMPRSS
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'TEXT COMPRESSOR
+1\->W
+0\->U
+\Locate 1,7,"SAVE..."
+\Locate 13,7,"         "
+\For 1\->B \To 7
+\For 1\->A \To 21
+\Locate 12,7,((B-1)*21)+A
+\Mat B[A,B]\->C
+\Locate 15,7,"   "
+\Locate 15,7,C
+'TURN TO BINARY
+C=0\=>U=0\=>\Return
+\(-)(C=0)+(C\<>0)\->I
+\For 6\->D \To 0 \Step \(-)1
+\Int (C/(2^D))\->\Mat E[1,7-D]
+(\Frac (C/(2^D)))*2^D\->C
+\Next 
+'STORE MAT E
+\Mat E
+\Prog "-.CMPRS2"
+\Next 
+\Next 
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:334
+File Name:-.CMPRS2
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+'APPEND MAT E TO BITSTRING TO BE COMPRESSED
+\Lbl 0:\For 1\->V \To 7
+\Mat E[1,V]\->\Mat D[1,V+U]
+\Next 
+U\>=49\=>\Goto1
+U+7\->U
+\Return
+\Lbl 1
+'STORE BITSTRING
+0\->U
+0\->V
+0\->Z
+1\->E
+\For 1\->V \To 49
+Z+((2^(V-1))*\Mat D[1,50-V])\->Z
+\Next 
+'50-EXPONENT SIGN
+\Mat D[1,50]=0\=>\Goto2
+\Mat D[1,50]=1\=>\Goto3
+\Lbl 2:\(-)1\->E
+\Lbl 3
+'51-56 EXP
+Z*10^\(-)14\->Z
+0\->F
+\For 51\->V \To 56
+F+((2^(V-51))*\Mat D[1,V]\->F
+\Next 
+IZ\10^x(EF)\->\Mat C[1,W]
+W+1\->W
+\Fill(0,\Mat D)
+\Return
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:517
+File Name:-.DCMPRS
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+\Fill(0,\Mat D)
+'DECOMPRESSOR
+'LOAD FROM MEMORY ONTO SCREEN
+0\->\Mat A[1,5]
+\For 1\->V \To 255
+\Fill(0,\Mat D)
+\Mat C[1,V]\->B
+B=0\=>\Stop
+'GET MANTISSA SIGN
+B<0\->\Mat D[1,57]
+'GET EXPONENT
+\Abs B\->Q
+\Intg (\log Q)\->E
+(Q/(10^(\Intg \log Q)))\10^x14\->Q
+'CONVERT MANTISSA TO BIN
+\For 48\->C \To 0 \Step \(-)1
+\Int (Q/(2^C))\->\Mat D[1,49-C]
+(Q-\Int (Q/(2^C))*2^C\->Q
+\Next 
+'GET EXPONENT
+E>0\->\Mat D[1,50]
+\Abs E\->E
+'BIN EXPONENT
+\For 5\->D \To 0 \Step \(-)1
+\Int (E/(2^D))\->\Mat D[1,51+D]
+\Frac (E/(2^D))*2^D\->E
+\Next 
+'GET 'BIN TO CHARS
+\For 0\->M \To 49 \Step 7
+0\->Z
+\For 0\->C \To 6
+Z+(\Mat D[1,1+C+M]*2^(6-C))\->Z
+\Next 
+Z\->\theta
+\Prog "-.ASCSCR"
+\Next 
+256(\Mat D[1,57]=1)+V(\Mat D[1,57]\<>1)\->V
+\Next 
+\Locate 1,7,"DONE!"
+%End
+%Header Record
+Format:TXT
+Communication SW:0
+Data Type:PG
+Capacity:159
+File Name:-.ASCSCR
+Group Name:
+Password:
+Option1:NL
+Option2:
+Option3:
+Option4:
+%Data Record
+\theta\->\Mat A[1,2]
+\theta\>=65\=>\theta\<=90\=>\GotoD
+\theta\>=97\=>\theta\<=122\=>\GotoE
+\theta\>=48\=>\theta\<=57\=>\GotoF
+\theta=0\=>\Return
+\Prog "-.SY0DSP"
+\Prog "-.SY1DSP"
+\Lbl D:\Prog "-.UCTDSP"
+\Goto9
+\Lbl E:\Prog "-.LCTDSP"
+\Goto9
+\Lbl F:\Prog "-.NUMDSP"
+\Goto9
+\Lbl 9
+\Lbl 8:\Prog "-.UPSPOS"
+\Return
+%End
