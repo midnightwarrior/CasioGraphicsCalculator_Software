@@ -1,6 +1,9 @@
 # CasioGraphicsCalculator_Software
-*midnightwarrior*
-This is all of the software I've written for the Casio CFX-series graphics calculator. (will be updated as I write more code)
+By _*midnightwarrior*_
+
+**_Obligatory copyright stuff:_** *This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. For more information please visit http://creativecommons.org/licenses/by-nc-sa/4.0/*
+
+This is all of the software I've written for the Casio CFX-series graphics calculator (will be updated as I write more code.)
 
 **Periodic table**
 
